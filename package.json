@@ -2,7 +2,7 @@
   "name": "react-native-web-webview",
   "version": "0.2.5",
   "description": "React Native for Web implementation of RN's WebView",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:react-native-web-community/react-native-web-webview.git"
@@ -19,6 +19,7 @@
     "WebView"
   ],
   "scripts": {
+    "compile": "babel src -d dist --ignore *-test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
@@ -26,6 +27,10 @@
       "react-native"
     ]
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
