@@ -1,5 +1,5 @@
 {
-  "name": "react-native-web-webview",
+  "name": "sl-react-native-web-webview",
   "version": "0.2.5",
   "description": "React Native for Web implementation of RN's WebView",
   "main": "dist/index.js",
